@@ -67,13 +67,7 @@ def render_brand():
     """Show the Advent AI Solutions logo as a header banner."""
     if not LOGO_PATH.exists():
         return
-    # Small corner logo for in-app branding...
-    try:
-        st.logo(str(LOGO_PATH), size="small")
-    except TypeError:
-        # Older Streamlit without the `size` parameter.
-        st.logo(str(LOGO_PATH))
-    # ...plus a header banner spanning the full content width.
+    # Header banner spanning the full content width.
     try:
         st.image(str(LOGO_PATH), use_container_width=True)
     except TypeError:
