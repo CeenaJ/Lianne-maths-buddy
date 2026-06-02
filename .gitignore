@@ -1,0 +1,13 @@
+# Secrets — never commit your API key
+.env
+
+# Local quiz history (per-user data)
+history.json
+
+# Python
+__pycache__/
+*.pyc
+*__pycache__
+
+# macOS
+.DS_Store

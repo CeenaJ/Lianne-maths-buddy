@@ -1,0 +1,7 @@
+[theme]
+# Advent AI Solutions brand palette
+primaryColor = "#1FB8A0"            # teal-green (lead brand color → buttons, sliders, selections)
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F0FA" # soft purple tint (sidebar, cards)
+textColor = "#2A2A3C"
+font = "sans serif"
